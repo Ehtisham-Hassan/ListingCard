@@ -1,0 +1,25 @@
+.card{
+    width: 200px;
+    height: 200px;
+    display: inline-table;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7) ;
+    transition: 0.5s ;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 10px black;
+    transform: scale(1.1);
+    translate: 0px 9px ;
+}
+
+.desc{
+    padding: 0px 2px 0 2px;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
